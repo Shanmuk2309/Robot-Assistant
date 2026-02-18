@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a greeting
-        run: echo "The CI pipeline has successfully 
-        
+        run: echo "The CI pipeline has successfully"
+
       - uses: actions/checkout@v4
 
       - name: Run Python Tests
